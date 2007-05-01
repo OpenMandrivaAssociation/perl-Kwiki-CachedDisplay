@@ -1,7 +1,7 @@
 %define module	Kwiki-CachedDisplay
 %define name	perl-%{module}
-%define version 0.06
-%define release %mkrel 3
+%define version 0.07
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
