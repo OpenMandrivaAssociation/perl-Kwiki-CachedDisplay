@@ -17,6 +17,7 @@ BuildRequires:	perl-devel
 BuildRequires:	perl(Kwiki)
 BuildRequires:	perl(Test::Pod::Coverage)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module use pre-generated page upon rendering, so that each successive
