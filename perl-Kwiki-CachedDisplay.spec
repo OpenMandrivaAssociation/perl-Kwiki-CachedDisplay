@@ -2,14 +2,14 @@
 %define upstream_version 0.07
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 
 Summary:	Speed-up Kwiki page display by caching
 License:	GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Kwiki/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/Kwiki-CachedDisplay
+Source0:	https://cpan.metacpan.org/authors/id/G/GU/GUGOD/Kwiki-CachedDisplay-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
